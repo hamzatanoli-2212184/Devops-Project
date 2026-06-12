@@ -1,0 +1,19 @@
+# DevOps Project: Flask Application with PostgreSQL
+Built using Python 3.9, Flask micro-framework, and PostgreSQL 15.
+This repository contains a containerized Python Flask application integrated with a PostgreSQL database, featuring an automated CI/CD pipeline.
+
+## Features
+- **Flask Web App**: Provides routing for home, health checks, and database connection tests.
+- **PostgreSQL Database**: Persistent relational database container.
+- **Dockerized**: Fully containerized using a custom Dockerfile and orchestrated via Docker Compose.
+- **CI/CD Pipeline**: Automated linting and unit testing powered by GitHub Actions.
+
+## Getting Started Locally
+
+### Prerequisites
+Make sure you have Docker and Docker Compose installed on your local machine.
+
+### Running the Application
+To spin up the multi-container environment, run:
+```bash
+docker-compose up --build
