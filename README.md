@@ -19,3 +19,5 @@ To spin up the multi-container environment, run:
 docker-compose up --build
 ## Environment Configurations
 The application securely handles database credentials using internal Docker environment mappings.
+## License
+This academic DevOps project is distributed under the MIT License.
