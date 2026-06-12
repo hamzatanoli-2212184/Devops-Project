@@ -17,3 +17,5 @@ Make sure you have Docker and Docker Compose installed on your local machine.
 To spin up the multi-container environment, run:
 ```bash
 docker-compose up --build
+## Environment Configurations
+The application securely handles database credentials using internal Docker environment mappings.
