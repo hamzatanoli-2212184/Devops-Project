@@ -24,3 +24,5 @@ This academic DevOps project is distributed under the MIT License.
 ## Port Allocations
 - Web App: Container Port 5000 mapped to Host Port 5000
 - Database: Container Port 5432 mapped to Host Port 5432
+## Code Standards
+Code linting rules are strictly enforced following PEP 8 style guides via Flake8.
